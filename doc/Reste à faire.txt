@@ -1,8 +1,4 @@
 -> Mettre en place une architecture MVC
-
-* Découper le header de la page
-* Découper le menu la page
-* Découper le footer de la page
 * Appliquer l'accessibiltié sur la page
 
 - Faire le document de conception de ce petit projet
