@@ -1,7 +1,7 @@
--> Mettre en place une architecture MVC
-* Appliquer l'accessibiltié sur la page
-
 - Faire le document de conception de ce petit projet
 - Diviser le code en clases PHP
 - Appliquer ces classes par des méthodes d'action.
 - Reprendre tout le code déjà créé précédemment !!
+
+-> Architecture MVC
+* Appliquer l'accessibiltié sur la page
