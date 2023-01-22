@@ -1,5 +1,11 @@
-- Créer des tests unitaires
-- Créer un nouveau style pour les tableaux
-- Ajouter un pied de page
-- Ajouter une page d'administration
-- Générer de la donnée automatiquement pour tester le site
+-> Mettre en place une architecture MVC
+
+* Découper le header de la page
+* Découper le menu la page
+* Découper le footer de la page
+* Appliquer l'accessibiltié sur la page
+
+- Faire le document de conception de ce petit projet
+- Diviser le code en clases PHP
+- Appliquer ces classes par des méthodes d'action.
+- Reprendre tout le code déjà créé précédemment !!

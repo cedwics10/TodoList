@@ -1,5 +1,5 @@
 <?php
-require("../include/inc_config.php");
+require("../application/inc_config.php");
 
 if (!isset($_GET['m'])) {
     $m = "index";

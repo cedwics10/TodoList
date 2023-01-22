@@ -1,7 +1,8 @@
 <?php
-require('../php/constants.php');
-/** Class SqlConnect
- * Permet de faire le singleton d'une connexion Sql
+
+/** Class monSQL
+ * Permet de faire le singleton
+ * d'une connexion PDO
  **/
 class monSQL
 {
@@ -34,7 +35,8 @@ class monSQL
         if (monSQL::$pdo == NULL) {
             try {
                 monSQL::$pdo = new PDO(
-                    "mysql:host=" . monSQL::$host . ";dbname=" . monSQL::$database,
+                    "mysql:host=" . monSQL::$host
+                        . ";dbname=" . monSQL::$database,
                     monSQL::$login,
                     monSQL::$password
                 );

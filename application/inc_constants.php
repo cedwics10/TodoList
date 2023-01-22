@@ -1,5 +1,7 @@
 <?php
-const NUMBER_OF_SECONDS_IN_A_YEAR = 365*24*3600;
+const NOM_DU_SITE = '';
+
+const NUMBER_OF_SECONDS_IN_A_YEAR = 365 * 24 * 3600;
 const TIMESTAMP_ZERO = '1970-01-01';
 const FAR_FAR_AWAY_DATE = '2999-12-12';
 
@@ -23,10 +25,10 @@ const SUCCESSFUL_SIGNIN = 'connexion_reussie';
 
 const DEFAULT_ORDER_TASKS = 'nom';
 const ARRAY_ORDER_BY_TACHES = [
-	'date' => 'taches.date', 
-	'nom' =>'taches.nom_tache',
-	'categorie' => 'categories.categorie',
-	'importance' =>'taches.importance'
+    'date' => 'taches.date',
+    'nom' => 'taches.nom_tache',
+    'categorie' => 'categories.categorie',
+    'importance' => 'taches.importance'
 ];
 const TASK_IS_COMPLETED = 1;
 const TASK_NOT_COMPLETED = 0;
@@ -44,19 +46,21 @@ const IS_A_MEMBER = 'm';
 
 const SUCCESSFUL_LOGIN_PAGE = 'index.php?reussi=connecte';
 
-define('SUCCESSFUL_LOGIN_MESSAGE', 
-isset($_GET[SUCCESSFUL_SIGNIN]) ? 'Vous êtes connecté. Bienvenu.' : '' );
+define(
+    'SUCCESSFUL_LOGIN_MESSAGE',
+    isset($_GET[SUCCESSFUL_SIGNIN]) ? 'Vous êtes connecté. Bienvenu.' : ''
+); // BAD CONSTANT DEFINITION (?)
 
-class TasksConst
+class TasksConst // (?)
 {
-	public static $show_completed_tasks = SHOW_COMPLETED_TASKS;
-	public static $get_arg_complete = 1;
-	public static $str_complete = 'Masquer';
-	public static $where_complete = '';
-	public static $where_categorie = '';
-	
-	public static $id_membre = '';
+    public static $show_completed_tasks = SHOW_COMPLETED_TASKS;
+    public static $get_arg_complete = 1;
+    public static $str_complete = 'Masquer';
+    public static $where_complete = '';
+    public static $where_categorie = '';
 
-	
-	public static $comparaison_date = '';
+    public static $id_membre = '';
+
+
+    public static $comparaison_date = '';
 }
