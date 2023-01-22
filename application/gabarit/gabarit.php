@@ -1,32 +1,38 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 
 <head>
-    <?php require("../include/inc_head.php"); ?>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel='stylesheet' type='text/css' href="css/design.css" />
+  <script src="js/script.js"></script>
 </head>
 
+
 <body>
-    <!-- lien de navigation pour lecteur d'écran -->
-    <a href="#main" class="sr-only">aller au contenu principal</a>
-    <!-- En-tête de page -->
-    <header>
-        <?php require("../include/inc_header.php"); ?>
-    </header>
-
-    <!-- menu de navigation -->
-    <nav>
-        <?php require("../include/inc_menu.php"); ?>
-    </nav>
-
-    <!-- contenu principal de la page -->
-    <main id="main">
-        <?php require("../application/modules/" . $_GET["m"] . "/$vue");?>
-    </main>
-
-    <!-- pied de page -->
+  <div class="page">
+    <div class="menu">
+      <header>
+        <div id="menu">
+          <h1 class="titre">Todolist</h1>
+          <h3>Tout pour se simplifier la vie !</h3>
+          <nav>
+            <ul>
+              <li><a href="index.php"><span class="texte_lien">Index</span></a></li>
+              <li><a href="inscription.php"><span class="texte_lien">Inscription</span></a></li>
+              <li><a href="connexion.php"><span class="texte_lien">Connexion</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <div class="texte">
+    </div>
+  </div>
+  <footer>
+    <div class="pied_de_page">
+    </div>
     <footer>
-        <?php require("../include/inc_footer.php"); ?>
-    </footer>
 </body>
 
 </html>

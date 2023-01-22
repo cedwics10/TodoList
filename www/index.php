@@ -1,11 +1,13 @@
 <?php
 require("../include/inc_config.php");
-extract($_GET);
-if (!isset($m)) {
-    $m="avion";
-    $a="list";
+
+if (!isset($_GET['m'])) {
+    $m = "index";
+    $a = "null";
+} else {
+    $m = $_GET['m'];
+    $a = $_GET['a'];
 }
 require("../application/modules/$m/ctr_" . $m . ".php");
-$nomfonction="a_" . $m . "_" . $a;
+$nomfonction = "a_" . $m . "_" . $a;
 $nomfonction();
-?>
