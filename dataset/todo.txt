@@ -1,0 +1,8 @@
+Faire le dossier de conception de ce projet simple : 
+- Dictionnaire de données
+- MCD
+- MCD graphique
+- MLD
+- MLD graphique
+- Code de la création de la base de données
+- Code du dataset
