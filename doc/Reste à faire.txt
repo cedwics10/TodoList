@@ -1,7 +1,6 @@
-- Faire le document de conception de ce petit projet
-- Diviser le code en clases PHP
-- Appliquer ces classes par des méthodes d'action.
-- Reprendre tout le code déjà créé précédemment !!
+- Ajouter les tables de "ReUseIt" à ce petit projet
+- Diviser le code en classes PHP
+- Créer l'architecture complete de programmes PHP
 
 -> Architecture MVC
-* Appliquer l'accessibiltié sur la page
+* Appliquer l'accessibiltié sur les pages HTML
